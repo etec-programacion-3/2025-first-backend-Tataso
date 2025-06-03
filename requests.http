@@ -1,0 +1,34 @@
+### Crear nuevo libro
+POST http://127.0.0.1:8000/libros
+Content-Type: application/json
+
+{
+    "id": "1",
+    "titulo": "Cien años de soledad",
+    "autor": "Gabriel García Márquez",
+    "isbn": "9788437604947",
+    "categoria": "Realismo mágico",
+    "estado": "disponible"
+}
+
+### Obtener todos los libros
+GET http://127.0.0.1:8000/libros
+
+### Buscar libros por título
+GET{"1"} http://127.0.0.1:8000/libros
+
+### Filtrar por categoría y ordenar
+GET http://127.0.0.1:8000/libros
+### Obtener libro específico
+GET http://127.0.0.1:8000/libros
+
+### Actualizar libro
+PUT http://127.0.0.1:8000/libros
+Content-Type: application/json
+
+{
+    "estado": "prestado"
+}
+
+### Eliminar libro
+DELETE http://127.0.0.1:8000/libros
