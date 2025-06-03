@@ -1,0 +1,7 @@
+{
+    "python.analysis.autoImportCompletions": true,
+    "editor.linkedEditing": true,
+    "editor.codeLensFontFamily": "100",
+    "editor.codeLensFontSize": 50,
+    "diffEditor.codeLens": true
+}
